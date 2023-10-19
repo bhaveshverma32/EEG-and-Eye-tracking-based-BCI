@@ -1,6 +1,6 @@
 # Hybrid BCI using Wireless EEG and Eye Tracking for Web Access
 
-![Header Image](path/to/header_image.jpg)  
+<img src="Images/BCIstructure.png" alt="ApriltagScreen" width="300"/>
 *Place a relevant header image or a banner related to the research here.*
 
 **Authors**: Bhavesh K Verma, Ravichander Janapati, Rakesh Sengupta
@@ -34,7 +34,8 @@ We used Pupil Core eye tracking headwear by Pupil Labs for the purpose of tracki
 ### Surface Tracking
 tracking of eye movement requires a high level of precision and calibration. In a usual experiment involving eye tracking the process of calibration takes a good amount of time and effort. Even a small amount of movement of the head in relation to the screen can give rise to inaccuracies in the measurement of eye movement. To minimize this problem we have utilized a method to track the edges of the device screen using AprilTag. AprilTags is a visual fiducial system, which utilizes black and white markers to track object locations.[\cite{olson2011apriltag}] We pasted four of such markers on the edges of our computer screen, which defines the relevant surface to a surface tracker plugin for real time tracking. Through the adjustment of the relative change on the location of the screen with respect to the eyes, the plugin adjusts the gaze parameters in realtime which produces an accurate estimation of gaze positions. Using this method reduces the need for subjects to be very steady while using the device, which makes it more practical.
 
-<img src="Images/screen_April.png" alt="ApriltagScreen" width="200"/>
+<img src="Images/screen_April.png" alt="ApriltagScreen" width="300"/>
+<img src="Images/Screenshot (52).png" alt="ApriltagScreen" width="300"/>
 
 
 ### Cursor Control
@@ -43,37 +44,12 @@ Processed eye gaze data is used to control the mouse cursor on the computer scre
 ![Cursor Control Flowchart](path/to/cursor_control_flowchart.jpg)  
 *Flowchart or diagram illustrating the cursor control process.*
 
-### Data Streaming
-Real-time streaming of processed eye gaze tracking data to a local server.
 
-![Data Streaming Architecture](path/to/data_streaming_architecture.jpg)  
-*Diagram showcasing the data streaming architecture.*
+## Live access to BCI
 
-## Experimental Setup
+<img src="Images/BCIstructure.png" alt="ApriltagScreen" width="600"/>
 
-### EEG Data Collection
-Data was collected from 15 volunteers using the Emotiv Insight – a wireless EEG headset.
-
-![EEG Data Collection Setup](path/to/eeg_data_collection_setup.jpg)  
-*Image or diagram of the EEG data collection setup.*
-
-### Eye Tracking Calibration
-Calibration is enhanced using AprilTag markers to define the relevant surface for real-time tracking.
-
-![Eye Tracking Calibration Process](path/to/eye_tracking_calibration.jpg)  
-*Diagram or image illustrating the eye tracking calibration process.*
-
-## Results & Findings
-The research found that subjects who underwent BCI training performed better than those who didn't. This suggests that regular training can improve both user performance and the BCI system's efficiency.
-
-![Results Graph](path/to/results_graph.jpg)  
-*Graph or chart showcasing the results.*
-
-## Future Work
-The study paves the way for refining the proposed approach and developing a fully functional system that can be tested in real-world environments.
 
 ## Contact
 For more details, reach out to the principal corresponding author at [bhaveshverma32@gmail.com](mailto:bhaveshverma32@gmail.com).
 
-## References
-A list of references used in this research can be found in the manuscript.
