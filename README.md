@@ -1,7 +1,6 @@
 # Hybrid BCI using Wireless EEG and Eye Tracking for Web Access
 
 <img src="Images/BCIstructure.png" alt="ApriltagScreen" width="300"/>
-*Place a relevant header image or a banner related to the research here.*
 
 **Authors**: Bhavesh K Verma, Ravichander Janapati, Rakesh Sengupta
 
