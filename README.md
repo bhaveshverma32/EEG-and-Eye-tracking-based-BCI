@@ -49,6 +49,5 @@ Processed eye gaze data is used to control the mouse cursor on the computer scre
 <img src="Images/BCIstructure.png" alt="ApriltagScreen" width="600"/>
 
 
-## Contact
-For more details, reach out to the principal corresponding author at [bhaveshverma32@gmail.com](mailto:bhaveshverma32@gmail.com).
+
 
